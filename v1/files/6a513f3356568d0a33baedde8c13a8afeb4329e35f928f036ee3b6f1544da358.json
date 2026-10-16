@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-16",
+  "channels": [
+    {
+      "channelId": "UCUsB9KTwSGgPlIARzdaKb_Q",
+      "title": "寶可夢 官方",
+      "description": "寶可夢官方中文頻道：動畫正片、短片和 MV，有臺灣國語配音。",
+      "language": "zh-TW",
+      "ageMin": 4,
+      "ageMax": 9,
+      "category": "cartoon",
+      "addedAt": "2026-10-15",
+      "reviewed": true,
+      "reviewedAt": "2026-10-15",
+      "handle": "@PokemonOfficialZh"
+    }
+  ]
+}

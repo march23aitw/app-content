@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "version": 20261016053952,
+  "publishedAt": "2026-10-16 05:39:52 UTC",
+  "files": {
+    "animals.json": {
+      "sha256": "9afa825f1f54b09b0058766fb082348ecbb0f7303cea5a805abf0ea780f93958",
+      "bytes": 10483
+    },
+    "archetypes.json": {
+      "sha256": "3ccab017968e490cf6a8a7814a47fed71da62c3e0c24ceb69ea43042e71b76eb",
+      "bytes": 9368
+    },
+    "channels.json": {
+      "sha256": "6a513f3356568d0a33baedde8c13a8afeb4329e35f928f036ee3b6f1544da358",
+      "bytes": 492
+    },
+    "decorations.json": {
+      "sha256": "9c551644ac57c3aec12110632dc78709fd66945c3dfd130dbbf722b01addd9b8",
+      "bytes": 43
+    },
+    "eggs.json": {
+      "sha256": "f1e60680ca66a7a67a468f6f99b3064ff185060bafcb0e3900099b84846458b0",
+      "bytes": 574
+    },
+    "sprites/angelfish.png": {
+      "sha256": "299b081aa47d55be6b9b72f3761519a0cce7fdcd4dea0d333b02a3c6453afb4b",
+      "bytes": 113549
+    },
+    "sprites/anglerfish.png": {
+      "sha256": "2b5fd177e5562ea51e2ff81406bda34d860af9a2deb080958022041a1d728e5a",
+      "bytes": 118923
+    },
+    "sprites/axolotl.png": {
+      "sha256": "17fd5db068f1a36aedd583283a3a79e8e38db1e00d11f8e74156968550947c70",
+      "bytes": 118806
+    },
+    "sprites/betta.png": {
+      "sha256": "02506f57fc82ca66d7be7328dc872a87409fdc83e7eb03bb432224867cfb6f66",
+      "bytes": 147540
+    },
+    "sprites/blue_tang.png": {
+      "sha256": "b7cd5c8143c78565cd2ee97261ed8ce144efac309e752cb7893e28ab5e052d41",
+      "bytes": 88267
+    },
+    "sprites/cherry_shrimp.png": {
+      "sha256": "1e288e6631fcf7ca1e932cc82872b79a58603e09fc04f4a7ef698ff0e00e6cfe",
+      "bytes": 72703
+    },
+    "sprites/clownfish.png": {
+      "sha256": "a36cfd267d14c29e8478ecae22b0ae5571c98535817186b4c7c6d50b34431a81",
+      "bytes": 106775
+    },
+    "sprites/corydoras.png": {
+      "sha256": "7e6b4ae15fd3edcea3f0a71ba624ae3cdda65dd4c71d92d15cfa5804ab920991",
+      "bytes": 126307
+    },
+    "sprites/dumbo_octopus.png": {
+      "sha256": "bcd839f19e96a06102e284b8592c8ac22b4148fdae98ba38adc1333faabeee76",
+      "bytes": 148345
+    },
+    "sprites/frog.png": {
+      "sha256": "e33f99c11337c366a17f5cc6c89cb104271438a3911b5e8a59b35481d59cb95f",
+      "bytes": 86787
+    },
+    "sprites/goldfish.png": {
+      "sha256": "07724bed8effaa6b3032395ce4168df2a0e0c9cd1252511311e2d18d82d0c44d",
+      "bytes": 122122
+    },
+    "sprites/guppy.png": {
+      "sha256": "0fd20d2b4b8cae6677e40a896161f287af69c48c2db2678cd410320395e62357",
+      "bytes": 141136
+    },
+    "sprites/hermit_crab.png": {
+      "sha256": "77c05f6b980417b41981c48a75a6f8707c1f0b1a33c492969633e0b78f61278c",
+      "bytes": 145410
+    },
+    "sprites/jellyfish.png": {
+      "sha256": "525fec9b6f349653cebae56b15e7e28b19dcd041de47750155d2170d6a913fa7",
+      "bytes": 133299
+    },
+    "sprites/lanternfish.png": {
+      "sha256": "a8b4de678481d2626de2779ee88059d0b86fb3bfde8f2fbc9b95d6dc6359be3c",
+      "bytes": 101551
+    },
+    "sprites/neon_tetra.png": {
+      "sha256": "e0446dd1168fddccf8797ea4fa6cdd88fbcddb7fd067715f1b9b33303f3722e0",
+      "bytes": 98033
+    },
+    "sprites/octopus.png": {
+      "sha256": "08304ef6d660ba46c116307827d6e024ab0a309f768b0d1f5319f9d16953f86e",
+      "bytes": 147067
+    },
+    "sprites/pufferfish.png": {
+      "sha256": "11306668d548a8444477168f5ff5e5744de45d7ebf54ebfe02e6eb2eafedd798",
+      "bytes": 114258
+    },
+    "sprites/seahorse.png": {
+      "sha256": "e69ee3cafedcd06c12f460cab3f52adbc1c99921180a25808d27874ad4decdc5",
+      "bytes": 84462
+    },
+    "sprites/shark.png": {
+      "sha256": "4fbc4909c92a12acc6217bcd2aa3736ae93496796280bf055a55235f282e12c6",
+      "bytes": 78628
+    },
+    "sprites/spider_crab.png": {
+      "sha256": "8f66062fd98a83bb45abff1fc23b1f8bfd9f669e42fc8d19a88ebb8c10911f51",
+      "bytes": 134552
+    },
+    "sprites/squid.png": {
+      "sha256": "4e73a8d304dab4c3799c01be87870e9ac86adaffc5a449c25a42c859303ec286",
+      "bytes": 98006
+    },
+    "sprites/starfish.png": {
+      "sha256": "0b556a27c828fc162489efb558b8083b6e851c20160cb3c6d0f374c5a2ea1c4f",
+      "bytes": 96182
+    },
+    "sprites/turtle.png": {
+      "sha256": "d447f63d6f7e416990977b49f7f2b9aa0d76c7b9ea210d913ffee60568c57df3",
+      "bytes": 94663
+    }
+  }
+}

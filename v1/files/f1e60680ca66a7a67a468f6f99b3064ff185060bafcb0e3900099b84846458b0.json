@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "minAppVersion": "1.0.0",
+  "restMinutesPerEgg": 60,
+  "eggsPerDayDefault": 2,
+  "tiers": [
+    {
+      "rarity": 1,
+      "zh": "普通",
+      "rate": 70
+    },
+    {
+      "rarity": 2,
+      "zh": "稀有",
+      "rate": 25
+    },
+    {
+      "rarity": 3,
+      "zh": "超稀有",
+      "rate": 5
+    }
+  ],
+  "weights": {},
+  "newBoost": {
+    "days": 14,
+    "multiplier": 2
+  },
+  "events": [],
+  "duplicate": {
+    "maxLevel": 5,
+    "perLevel": 1,
+    "maxedReward": {
+      "food": 20
+    }
+  },
+  "decorationRate": 25,
+  "shinyRate": 1
+}

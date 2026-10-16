@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "archetypes": {
+    "swimmer": {
+      "zh": "游泳的魚",
+      "description": "靠擺尾往前游，會轉身、上下游時身體微微傾斜。大部分魚類、蝦、六角恐龍。",
+      "examples": [
+        "clownfish",
+        "goldfish",
+        "cherry_shrimp",
+        "axolotl"
+      ],
+      "image": {
+        "prompt": "side view, facing right, head on the right and tail on the left, the whole body and every fin visible",
+        "aspect": [
+          0.75,
+          2.6
+        ]
+      },
+      "motion": {
+        "wave": "tail",
+        "flip": true,
+        "tilt": true,
+        "eatsFood": true
+      },
+      "bands": [
+        "any",
+        "low",
+        "high"
+      ],
+      "params": {
+        "size": {
+          "min": 0.4,
+          "max": 1.6,
+          "default": 1.0
+        },
+        "speed": {
+          "min": 0.2,
+          "max": 1.4,
+          "default": 0.8
+        },
+        "wave": {
+          "min": 0.3,
+          "max": 1.8,
+          "default": 1.0
+        }
+      },
+      "traits": [
+        "school",
+        "puff",
+        "glowLure",
+        "glowBody"
+      ],
+      "effects": {
+        "trail": "behind",
+        "sparkleRegion": "front",
+        "crown": "top"
+      }
+    },
+    "glider": {
+      "zh": "滑行",
+      "description": "身體不擺動，用鰭慢慢滑行，身體輕輕搖晃。海龜、魟魚。",
+      "examples": [
+        "turtle"
+      ],
+      "image": {
+        "prompt": "side view, facing right, head on the right, flippers spread, the whole body visible",
+        "aspect": [
+          1.0,
+          2.2
+        ]
+      },
+      "motion": {
+        "wave": "none",
+        "flip": true,
+        "tilt": true,
+        "eatsFood": true
+      },
+      "bands": [
+        "any",
+        "low"
+      ],
+      "params": {
+        "size": {
+          "min": 0.8,
+          "max": 1.6,
+          "default": 1.3
+        },
+        "speed": {
+          "min": 0.2,
+          "max": 0.7,
+          "default": 0.42
+        }
+      },
+      "traits": [
+        "glowBody"
+      ],
+      "effects": {
+        "trail": "behind",
+        "sparkleRegion": "all",
+        "crown": "top"
+      }
+    },
+    "hoverer": {
+      "zh": "直立漂浮",
+      "description": "身體直立，在水中慢慢漂、上下浮動。海馬。",
+      "examples": [
+        "seahorse"
+      ],
+      "image": {
+        "prompt": "side view, facing right, upright body, head at the top, the whole body including the tail visible",
+        "aspect": [
+          0.4,
+          0.8
+        ]
+      },
+      "motion": {
+        "wave": "none",
+        "flip": true,
+        "tilt": false,
+        "eatsFood": false
+      },
+      "bands": [
+        "any",
+        "low"
+      ],
+      "params": {
+        "size": {
+          "min": 0.6,
+          "max": 1.2,
+          "default": 0.95
+        },
+        "speed": {
+          "min": 0.1,
+          "max": 0.4,
+          "default": 0.22
+        }
+      },
+      "traits": [
+        "glowBody"
+      ],
+      "effects": {
+        "trail": "below",
+        "sparkleRegion": "all",
+        "crown": "top"
+      }
+    },
+    "jet_pulse": {
+      "zh": "收縮往上",
+      "description": "身體一縮一放往上衝，再慢慢沉下來，觸手跟著飄。水母、章魚、小飛象章魚。",
+      "examples": [
+        "jellyfish",
+        "octopus",
+        "dumbo_octopus"
+      ],
+      "image": {
+        "prompt": "front view, head or bell at the top, tentacles hanging down below, the whole body visible",
+        "aspect": [
+          0.6,
+          1.3
+        ]
+      },
+      "motion": {
+        "wave": "tentacles",
+        "flip": true,
+        "tilt": false,
+        "eatsFood": false
+      },
+      "bands": [
+        "any",
+        "high"
+      ],
+      "params": {
+        "size": {
+          "min": 0.6,
+          "max": 1.4,
+          "default": 1.0
+        },
+        "speed": {
+          "min": 0.2,
+          "max": 0.6,
+          "default": 0.3
+        }
+      },
+      "traits": [
+        "glowBody"
+      ],
+      "effects": {
+        "trail": "below",
+        "sparkleRegion": "top",
+        "crown": "top"
+      }
+    },
+    "jet_dart": {
+      "zh": "噴射前衝",
+      "description": "身體往前一衝一衝地游，觸手拖在後面。魷魚。",
+      "examples": [
+        "squid"
+      ],
+      "image": {
+        "prompt": "side view, the pointed head pointing to the right, tentacles trailing behind to the left, the whole body visible",
+        "aspect": [
+          1.0,
+          2.4
+        ]
+      },
+      "motion": {
+        "wave": "tail",
+        "flip": true,
+        "tilt": true,
+        "eatsFood": true
+      },
+      "bands": [
+        "any",
+        "high"
+      ],
+      "params": {
+        "size": {
+          "min": 0.6,
+          "max": 1.4,
+          "default": 1.0
+        },
+        "speed": {
+          "min": 0.3,
+          "max": 1.0,
+          "default": 0.6
+        }
+      },
+      "traits": [
+        "glowBody"
+      ],
+      "effects": {
+        "trail": "behind",
+        "sparkleRegion": "front",
+        "crown": "top"
+      }
+    },
+    "kicker": {
+      "zh": "蹬腿游",
+      "description": "後腿一蹬一蹬往前游。青蛙。",
+      "examples": [
+        "frog"
+      ],
+      "image": {
+        "prompt": "side view, facing right, swimming with the back legs stretched out behind to the left, the whole body visible",
+        "aspect": [
+          1.2,
+          2.4
+        ]
+      },
+      "motion": {
+        "wave": "tail",
+        "flip": true,
+        "tilt": true,
+        "eatsFood": true
+      },
+      "bands": [
+        "any",
+        "high"
+      ],
+      "params": {
+        "size": {
+          "min": 0.6,
+          "max": 1.3,
+          "default": 1.0
+        },
+        "speed": {
+          "min": 0.4,
+          "max": 1.0,
+          "default": 0.8
+        }
+      },
+      "traits": [],
+      "effects": {
+        "trail": "behind",
+        "sparkleRegion": "all",
+        "crown": "top"
+      }
+    },
+    "crawler": {
+      "zh": "在底部爬",
+      "description": "在沙地上走走停停，走路時身體一顛一顛。螃蟹、寄居蟹。sideways 為 true 時橫著走、不轉身（圖要畫正面）。",
+      "examples": [
+        "spider_crab",
+        "hermit_crab"
+      ],
+      "image": {
+        "prompt": "standing on the ground, the whole body and all legs visible",
+        "promptSideways": "front view facing the viewer, legs spread out to both sides, the whole body visible",
+        "promptForward": "side view, facing right, legs underneath, the whole body visible",
+        "aspect": [
+          0.8,
+          2.2
+        ]
+      },
+      "motion": {
+        "wave": "none",
+        "flip": true,
+        "tilt": false,
+        "eatsFood": false
+      },
+      "bands": [
+        "floor"
+      ],
+      "params": {
+        "size": {
+          "min": 0.5,
+          "max": 1.4,
+          "default": 0.8
+        },
+        "speed": {
+          "min": 0.1,
+          "max": 0.4,
+          "default": 0.22
+        }
+      },
+      "options": {
+        "sideways": {
+          "type": "bool",
+          "default": false
+        }
+      },
+      "traits": [],
+      "effects": {
+        "trail": "none",
+        "sparkleRegion": "all",
+        "crown": "top"
+      }
+    },
+    "sitter": {
+      "zh": "待在底部",
+      "description": "待在沙地上幾乎不動，只會輕輕晃。海星、海膽。",
+      "examples": [
+        "starfish"
+      ],
+      "image": {
+        "prompt": "top view, lying flat, the whole body visible",
+        "aspect": [
+          0.75,
+          1.35
+        ]
+      },
+      "motion": {
+        "wave": "none",
+        "flip": false,
+        "tilt": false,
+        "eatsFood": false
+      },
+      "bands": [
+        "floor"
+      ],
+      "params": {
+        "size": {
+          "min": 0.4,
+          "max": 1.0,
+          "default": 0.7
+        },
+        "speed": {
+          "min": 0.0,
+          "max": 0.1,
+          "default": 0.04
+        }
+      },
+      "traits": [],
+      "effects": {
+        "trail": "none",
+        "sparkleRegion": "all",
+        "crown": "top"
+      }
+    }
+  },
+  "traits": {
+    "school": {
+      "zh": "成群游",
+      "description": "一次出現好幾隻小魚，跟著帶頭的那隻游；整群只佔魚缸一個名額。",
+      "params": {
+        "count": {
+          "type": "int",
+          "min": 3,
+          "max": 8,
+          "default": 5
+        }
+      }
+    },
+    "puff": {
+      "zh": "會鼓起來",
+      "description": "偶爾把身體鼓成球，再縮回去。只適合河豚類。",
+      "params": {}
+    },
+    "glowLure": {
+      "zh": "頭上小燈會發光",
+      "description": "在圖上的某一點畫會呼吸的光。anchor 是光點在圖上的位置（0 到 1，左上角是 0,0）。",
+      "params": {
+        "anchor": {
+          "type": "point"
+        }
+      }
+    },
+    "glowBody": {
+      "zh": "身體會發光",
+      "description": "在深海缸裡身體周圍有微微的光。",
+      "params": {
+        "color": {
+          "type": "color",
+          "default": "#6ec8ff"
+        }
+      }
+    }
+  },
+  "bands": {
+    "any": "整個水中都會去",
+    "low": "比較常待在下半部",
+    "high": "比較常待在上半部",
+    "floor": "只在沙地上"
+  }
+}
